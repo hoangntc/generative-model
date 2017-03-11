@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 data/*
 conditional_vae/out/*
+denoising_vae/out/*
