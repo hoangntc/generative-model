@@ -28,3 +28,8 @@ The code is adopted from [wiseodd](https://github.com/wiseodd/generative-models/
 Loss is averaged by using [PyTorchNet](https://github.com/pytorch/tnt).
 
 ```pip install git+https://github.com/pytorch/tnt.git@master```
+
+**4. Generative Adversarial Networks**
+GAN is a neural networks that is composed of 2 separate deep neural networks competing each other: the generator and the discriminator.
+
+[Hackernoon](https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1#.4ppap66hn)

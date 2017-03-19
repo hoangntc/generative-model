@@ -2,3 +2,4 @@
 data/*
 conditional_vae/out/*
 denoising_vae/out/*
+gan/out/*
