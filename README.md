@@ -25,8 +25,7 @@ Reference paper [Denoising criterion for variational auto-encoding framework](ht
 
 The code is adopted from [wiseodd](https://github.com/wiseodd/generative-models/blob/master/VAE/denoising_vae/dvae_pytorch.py).
 
-Loss is averaged by using [PyTorchNet](https://github.com/pytorch/tnt).
-
+Loss is averaged by using [PyTorchNet](https://github.com/pytorch/tnt). To install ```PyTorchNet```, we can run following command:
 ```sh
 pip install git+https://github.com/pytorch/tnt.git@master
 ```
@@ -37,7 +36,7 @@ GAN is a neural networks that is composed of 2 separate deep neural networks try
 
 Reference paper:
 - [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
-- [UNSUPERVISED REPRESENTATION LEARNING WITH DEEP CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS](https://arxiv.org/pdf/1511.06434.pdf)
+- [Unsupervised representation learning with deep convolutional generative adverarial networks](https://arxiv.org/pdf/1511.06434.pdf)
 
 Article:
 - [Hackernoon](https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1#.4ppap66hn)
