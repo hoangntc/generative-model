@@ -1,5 +1,5 @@
 .ipynb_checkpoints/
 data/*
-conditional_vae/out/*
-denoising_vae/out/*
-gan/out/*
+VAE/conditional_vae/out/*
+VAE/denoising_vae/out/*
+GAN/vanilla-GAN/out/*
