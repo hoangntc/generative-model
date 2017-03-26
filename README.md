@@ -1,6 +1,8 @@
 # Generative models
 This is a collection of generative models
 
+## Variational Auto Encoder (VAE)
+
 **1. Variational Auto Encoder (VAE)**
 
 This is an implementation of **Auto-Encoding Variational Bayes** using Pytorch.
@@ -30,13 +32,14 @@ Loss is averaged by using [PyTorchNet](https://github.com/pytorch/tnt). To insta
 pip install git+https://github.com/pytorch/tnt.git@master
 ```
 
-**4. Generative Adversarial Networks**
+## Generative Adversarial Networks (GAN)
+
+**1. Generative Adversarial Networks (GAN)**
 
 GAN is a neural networks that is composed of 2 separate deep neural networks trying to compete each other during training time: the generator and the discriminator.
 
 Reference paper:
 - [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
-- [Unsupervised representation learning with deep convolutional generative adverarial networks](https://arxiv.org/pdf/1511.06434.pdf)
 
 Article:
 - [Hackernoon](https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1#.4ppap66hn)
@@ -44,3 +47,15 @@ Article:
 
 The code is adopted from [wiseodd](https://github.com/wiseodd/generative-models/blob/master/GAN/vanilla_gan/gan_pytorch.py)
 
+**2. Deep Convolutional Generative Adversarial Networks (DCGAN)**
+
+In order to understand Deconvolutional network, refer to this [Convolution arithmetic](https://github.com/vdumoulin/conv_arithmetic).
+
+In general case, with **W**: the input volume size, **F**: the filter/kernel size, **S**: the stride and **P**: the amount of zero padding used, the architecture of Deconv layer can be computed as following:
+
+**(W + (W-1)*(S-1)) + (F-1) -2P)**
+
+Reference paper:
+- [Unsupervised representation learning with deep convolutional generative adverarial networks](https://arxiv.org/pdf/1511.06434.pdf)
+
+The code is adopted from [Pytorch DCGAN](https://github.com/pytorch/examples/blob/master/dcgan/main.py)
