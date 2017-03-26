@@ -3,5 +3,5 @@ data/*
 VAE/conditional_vae/out/*
 VAE/denoising_vae/out/*
 GAN/vanilla-GAN/out/*
-GAN/DCGAN/out/*
+GAN/DCGAN/output/*
 GAN/DCGAN/data/*
