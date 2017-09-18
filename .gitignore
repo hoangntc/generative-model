@@ -5,3 +5,4 @@ VAE/denoising_vae/out/*
 GAN/vanilla-GAN/out/*
 GAN/DCGAN/output/*
 GAN/DCGAN/data/*
+MNIST_data/*
